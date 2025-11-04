@@ -85,10 +85,21 @@ Gmail SMTP 연동, 6자리 인증번호 생성, 5분 타이머, HTML 베이지 �
 ### 전체 아키텍처
 ```
 📦 backend_root (Spring Boot)
+├── 📁 answer
+├── 📁 application
+├── 📁 common
+├── 📁 config
+├── 📁 counter
 ├── 📁 email                    # 이메일 인증 시스템
 │   ├── controller/EmailController
 │   ├── dto/EmailSendDTO, EmailVerifyDTO
 │   └── service/EmailService
+├── 📁 growing
+├── 📁 motionBuzzer
+├── 📁 notice
+├── 📁 plantBot
+├── 📁 question
+├── 📁 schedule
 └── 📁 user                      # 회원 관리 시스템
     ├── controller/UserController
     ├── dto/UserDTO
@@ -98,15 +109,23 @@ Gmail SMTP 연동, 6자리 인증번호 생성, 5분 타이머, HTML 베이지 �
 ```
 📦 frontend_root (React)
 └── src
+    ├── 📁 assets
     ├── 📁 common
     │   ├── Accordion.jsx           # 약관 아코디언 컴포넌트
     │   └── Modal.jsx               # 공통 모달 컴포넌트
+    ├── 📁 component
+    ├── 📁 constants
     ├── 📁 hooks
     │   └── useAgreements.js        # 약관 동의 커스텀 훅
-    ├── 📁 pages/user               # 회원 관리 페이지
-    │   ├── EmailAuth.jsx           # 이메일 인증
-    │   ├── Join.jsx                # 회원가입
-    │   └── Login.jsx               # 로그인
+    ├── 📁 layout
+    ├── 📁 pages
+    │   ├── 📁 admin
+    │   ├── 📁 main
+    │   ├── 📁 menu
+    │   └── 📁 user              　　# 회원 관리 페이지
+    │       ├── EmailAuth.jsx       # 이메일 인증
+    │       ├── Join.jsx            # 회원가입
+    │       └── Login.jsx           # 로그인
     └── 📁 utils
         └── validation.jsx          # 유효성 검사 함수
 ```
