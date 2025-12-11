@@ -6,6 +6,14 @@
 [![Java](https://img.shields.io/badge/Java-17-007396?style=flat&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
 [![MariaDB](https://img.shields.io/badge/MariaDB-10.x-003545?style=flat&logo=mariadb&logoColor=white)](https://mariadb.org/)
 
+## 📺 시연 영상
+
+📹 **[회원 관리 시스템 전체보기 (Playlist)](https://www.youtube.com/playlist?list=PL9BhsdGRXF6HB4sYgJNyLqkTbWpKNk5vV)**
+
+**포함 내용**
+- ✍️ 회원가입 시스템
+- 🔐 로그인 시스템
+
 ## 📋 목차
 
 - [프로젝트 개요](#-프로젝트-개요)
